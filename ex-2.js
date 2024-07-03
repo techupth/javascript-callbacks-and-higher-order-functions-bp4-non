@@ -26,5 +26,5 @@ let scoreRoom2Result = atLeastFive(studentScoresRoom2, 'pass');
 let scoreRoom3Result = atLeastFive(studentScoresRoom3, 'pass');
 
 console.log(`นักเรียนห้องที่ 1 ผ่านเกณฑ์ ${scoreRoom1Result}`);
-console.log(`นักเรียนห้องที่ 2 ผ่านเกณฑ์ ${scoreRoom2Result}`);
-console.log(`นักเรียนห้องที่ 3 ผ่านเกณฑ์ ${scoreRoom3Result}`);
+console.log(`นักเรียนห้องที่ 2 ไม่ผ่านเกณฑ์ ${scoreRoom2Result}`);
+console.log(`นักเรียนห้องที่ 3 ไม่ผ่านเกณฑ์ ${scoreRoom3Result}`);
